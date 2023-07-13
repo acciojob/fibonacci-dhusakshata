@@ -1,6 +1,6 @@
 function fibonacci(num) {
-  if (num <= 0) {
-    return 0;
+  if (num < 0) {
+    return  return "Invalid input. Please enter a non-negative integer." ;
   } else if (num === 1) {
     return 1;
   }
